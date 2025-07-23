@@ -11,16 +11,12 @@ A comprehensive Python framework for backtesting algorithmic trading strategies 
 
 ## Table of Contents
 - [Features](#features)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Implemented Strategies](#implemented-strategies)
 - [Performance Metrics](#performance-metrics)
 - [Sample Output](#sample-output)
 - [Disclaimer](#disclaimer)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-
 ---
 
 ## Features
@@ -50,26 +46,7 @@ Choose any Nifty 50 stock for analysis through CLI interface
 
 ---
 
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/nifty50-backtester.git
-cd nifty50-backtester
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
----
-
 ## Usage
-
-```bash
-python backtester.py
-```
 
 The script will:
 1. Download Nifty 50 constituents
@@ -118,8 +95,6 @@ Strategy Performance Comparison:
 +------------------------+-------------------+---------------------+---------------+
 ```
 
-![Strategy Comparison Plot](sample_plot.png)
-
 ---
 
 ## Disclaimer
@@ -140,28 +115,3 @@ This project is for **educational purposes only**. Past performance does not gua
 - Matplotlib / Seaborn (Visualization)
 
 ---
-
-## Contributing
-
-We welcome contributions! Please:
-
-1. Fork the repository  
-2. Create your feature branch  
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-3. Commit your changes  
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
-4. Push to the branch  
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-5. Open a Pull Request
-
----
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
